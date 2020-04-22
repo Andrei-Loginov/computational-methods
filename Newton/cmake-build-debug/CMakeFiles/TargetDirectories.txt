@@ -1,0 +1,3 @@
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/cmake-build-debug/CMakeFiles/Newton.dir
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/cmake-build-debug/CMakeFiles/rebuild_cache.dir

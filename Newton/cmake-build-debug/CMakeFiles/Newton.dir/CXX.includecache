@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Newton.cpp
+Newton.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Newton.h
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Newton.h
+iostream
+-
+vector
+-
+cmath
+-
+algorithm
+-
+utility
+-
+Polynomial.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Polynomial.h
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Polynomial.cpp
+Polynomial.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Polynomial.h
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Polynomial.h
+vector
+-
+map
+-
+cmath
+-
+iostream
+-
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/main.cpp
+Polynomial.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Polynomial.h
+Newton.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton/Newton.h
+fstream
+-
+
