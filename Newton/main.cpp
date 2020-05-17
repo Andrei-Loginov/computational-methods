@@ -14,6 +14,7 @@ Polynomial readPolynomial(std::ifstream &fin){
 
 int main() {
     std::ifstream fin("input.txt");
+    freopen("output.txt", "w", stdout);
     int n, degree;
     double center;
     std::vector<std::pair<double, double>> v;

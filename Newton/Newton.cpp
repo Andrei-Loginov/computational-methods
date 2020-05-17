@@ -53,7 +53,8 @@ void Newton::answerOutput() {
     for (int i = 0; i <= degree_; ++i)
         std::cout << polynomial_.value(points_[i].x_) - points_[i].y_ << " | ";
     //this program has been written for ln, so derivatives are counted for ln
-    std::cout << "\nError in point 4: " << polynomial_.value(4) - log(4) << "\n";
+    std:: cout << "\nValue in point " << center_ << ": "<< polynomial_.value(center_) << "\tln(" << center_ << ")" << log(center_);
+    std::cout << "\nError in point 4: " << polynomial_.value(center_) - log(center_) << "\n";
     int maximal_derivative = 24; // 24/x^5, x = 1
     Polynomial w = multiplier * (Polynomial(1, 1) - Polynomial(0, points_[degree_].x_));
     std::cout << "error estimation: " << maximal_derivative * fabs(w.value(center_)) / 120;
