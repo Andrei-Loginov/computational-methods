@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton_2/Newton.cpp
+Newton.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton_2/Newton.h
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton_2/Newton.h
+iostream
+-
+vector
+-
+cmath
+-
+algorithm
+-
+utility
+-
+Polynomial.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton_2/Polynomial.h
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Newton_2/Polynomial.h
+vector
+-
+map
+-
+cmath
+-
+iostream
+-
+
