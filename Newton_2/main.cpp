@@ -17,13 +17,14 @@ Polynomial readPolynomial(std::ifstream &fin){
 
 int main() {
     std::ifstream fin("input.txt");
+    freopen("output.txt", "w", stdout);
     int degree;
     double center, right_border, left_border, h;
     std::vector<std::pair<double, double>> v;
     fin >> degree >> left_border >> right_border >> h >> center;
     fin.close();
     for (double i = left_border; i <= right_border; i +=h)
-        v.push_back(std::make_pair(i, cos(i)));
+        v.push_back(std::make_pair(i, sin(i)));
     Newton p(center, v, degree);
     p.answerOutput();
     return 0;

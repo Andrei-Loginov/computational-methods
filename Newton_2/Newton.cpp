@@ -44,7 +44,7 @@ Polynomial Newton::polynomial() {
 }
 
 /*
- * This program was written to estimate errors for cos(x), so derivatives was written for cos(x)
+ * This program was written to estimate errors for sin(x), so derivatives was written for sin(x)
  */
 
 void Newton::answerOutput() {
@@ -57,9 +57,9 @@ void Newton::answerOutput() {
     std::cout << "\nExact error | ";
     for (int i = 0; i <= degree_; ++i)
         std::cout << polynomial_.value(points_[i].x_) - points_[i].y_ << " | ";
-    //this program has been written for cos, so derivatives are counted for ln
-    std::cout << "\nError in point " << center_ << ": " << polynomial_.value(center_) - cos(center_) << "\n";
-    double maximal_derivative = cos(center_);
+    std:: cout << "\nValue in point " << center_ << ": " << polynomial_.value(center_) << "\n";
+    std::cout << "\nError in point " << center_ << ": " << polynomial_.value(center_) - sin(center_) << "\n";
+    double maximal_derivative = 1; // -0.5 < x < 0.5, 5th derivative is cos, cos(0) = 1
     Polynomial w = multiplier * (Polynomial(1, 1) - Polynomial(0, points_[degree_].x_));
     std::cout << "error estimation: " << maximal_derivative * fabs(w.value(center_)) / 120;
 
