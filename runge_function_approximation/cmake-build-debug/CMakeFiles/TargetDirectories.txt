@@ -1,0 +1,3 @@
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/runge_function_approximation/cmake-build-debug/CMakeFiles/runge_function_approximation.dir
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/runge_function_approximation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/runge_function_approximation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
