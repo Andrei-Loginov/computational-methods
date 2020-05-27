@@ -16,8 +16,9 @@ std::vector<std::pair<double, double>> Runge_func_approx::count_points(const int
     std::vector<std::pair<double, double>> ans(degree + 1);
     for (int i = 0; i < degree + 1; ++i)
     {
-        ans[i].first = cos((2 * (double) i + 1) / (2 * degree) * pi);
+        ans[i].first = cos((2 * (double) i + 1) / (2 * degree + 2) * pi);
         ans[i].second = Runge_function(ans[i].first);
+        std::cout << ans[i].first << " " << ans[i].second << "\n";
     }
     return ans;
 }

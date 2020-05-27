@@ -12,7 +12,7 @@ int main() {
     double i = -1.0;
     double step = 2.0 / degree;
     while (i <= 1.0) {
-        std::cout << i << " " << Runge_function(i) <<"\n";
+        //std::cout << i << " " << Runge_function(i) <<"\n";
         points.emplace_back(std::pair<double, double>(i, Runge_function(i)));
         i += step;
     }
@@ -21,7 +21,6 @@ int main() {
     p1.output();
     std::cout << "using equally spaced nodes: P_2(x) = ";
     p2.output();
-    std::cout << Runge_function(center) << " " << p1.value(center) << " " << p2.value(center) << "\n";
     std::cout << "P_1(" << center << ")" << p1.value(center) << "\n";
     std::cout << "P_2(" << center << ")" << p2.value(center) << "\n";
     std::cout << "True value: " << Runge_function(center) << "\n";
