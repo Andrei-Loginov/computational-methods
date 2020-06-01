@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Hermite/Hermite.h
+Polynomial.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Hermite/Polynomial.h
+vector
+-
+cmath
+-
+algorithm
+-
+utility
+-
+iostream
+-
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Hermite/Polynomial.h
+vector
+-
+map
+-
+cmath
+-
+iostream
+-
+
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Hermite/main.cpp
+Hermite.h
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Hermite/Hermite.h
+fstream
+-
+

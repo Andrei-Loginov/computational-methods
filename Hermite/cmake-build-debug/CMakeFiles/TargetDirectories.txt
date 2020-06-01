@@ -1,0 +1,3 @@
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Hermite/cmake-build-debug/CMakeFiles/Hermite.dir
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Hermite/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrei.DESKTOP-LTDSDE0/CLionProjects/computational methods/Hermite/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,18 @@
+Divided differences:
+-2 24 39 -21 2.22222 
+-2 24 39 -14.3333 
+-2 24 -4 
+1 12 
+P(x) is:35.7778+x^1*-18.3333+x^2*-7.66667+x^3*2.22222+
+derivative1: -18.3333+x^1*-15.3333+x^2*6.66667+
+derivative2: -15.3333+x^1*13.3333+
+Table for approximation polynomial:
+
+x	|P(x)	|P'(x)	|P''(x)	|
+-2 | 24 | 39 | -42 | 
+1 | 12 | 
+Initial data:
+
+x	|f(x)	|f'(x)	|f''(x)	|
+-2 | 24 | 39 | -42 | 
+1 | 12 | 
