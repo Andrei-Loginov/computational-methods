@@ -38,7 +38,8 @@ struct line{
 //variant 10
 
 int main() {
-    std::cout << "Hello, world!\n";
+    freopen("output.txt", "w", stdout);
+    std::cout << "Task 1\n";
     double a = 0.0, b = 2.0, h = 0.1;
 
     //task 1
@@ -76,6 +77,7 @@ int main() {
     //let's make the border
     std::cout << "______________________________________________________________________________________________\n";
     //task 2
+    std::cout << "Task 2\n";
     double x = 1;
     h = 0.5;
     int k = 1;
@@ -92,21 +94,24 @@ int main() {
     std::cout << "Task 3\n";
 
     std::ifstream fin("input.txt");
-    if (fin.is_open()) std::cout << "The file has been opened successfully\n";
-    else std::cout << "Can't open the file\n";
+    //if (fin.is_open()) std::cout << "The file has been opened successfully\n";
+    //else std::cout << "Can't open the file\n";
     int degree;
     double left_border, right_border, x_1;
     std::vector<std::pair<double, double>> v;
 
     fin >> degree >> left_border >> right_border >> x_1;
     fin.close();
-    std::cout << degree << "\n";
+    //std::cout << degree << "\n";
     h = (right_border - left_border) / degree;
     for (double i = left_border; i <= right_border; i+= h)
         v.push_back(std::make_pair(i, f(i)));
     Newton p(x_1, v, degree);
-    p.polynomial().output();
+    //p.polynomial().output();
+    //p.polynomial().derivative().output();
     Polynomial polynomial_derivative = p.polynomial().derivative();
-    std::cout << polynomial_derivative.value(x_1);
+    std::cout << "P'(" << x_1 << ") = " << polynomial_derivative.value(x_1) << "\n";
+    std::cout << "f''(" << x_1 << ") = " << der(x_1) << "\n";
+    std::cout << "error: " << fabs(der(x_1) - polynomial_derivative.value(x_1));
     return 0;
 }
