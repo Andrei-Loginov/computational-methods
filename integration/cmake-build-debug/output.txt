@@ -1,0 +1,33 @@
+Task 1
+'Exact result': 0.196423  (WolframAlpha)
+Task 2
+Rectangle formula result: 0.285068
+Error: 0.0886451
+_________________________________________________________________________
+Task3
+mu_0 =0.57143
+mu_1=0.20779
+mu_2=0.11082
+mu_3 = 0.06993   (WolframAlpha)
+A_1 = 0.441558	A_2 = 0.12987
+Result, counted using weights: 0.11934
+Error: 0.0770827
+_________________________________________________________________________
+Task 4
+Gauss formula
+(integrate(f(x) dx), -1< x < 1) = f(-1/sqrt(3)) + f(1/sqrt(3))) - written in the book
+Let's change the variable to calculate integral 0 < x < 1
+(integrate(f(x)dx), 0 < x < 1) = 1/2 * (f(-0.5/sqrt(3) + 1/2) + f(0.5/sqrt(3) + 1/2))
+Result is: 0.198329
+Error:0.00190625
+_________________________________________________________________________
+Task 4
+Gauss-like formula
+The system: 
+a_1 * 0.20779 + a_2 * 0.57143 = -0.11082
+a_1 * 0.11082 + a_2 * 0.20779 = -0.06993
+a_1 = -0.842105, a_2 = 0.112281   (Wolfram)
+x_1 = 0.166093 , x_2 = 0.676013
+Check: A_1 + A_2 = 0.57143 ; mu_0 = 0.57143
+Result is: 0.109985
+Error: 0.0864383
